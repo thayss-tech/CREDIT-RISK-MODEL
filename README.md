@@ -148,9 +148,9 @@ CREDIT RISK MODEL FINAL/
 You don't need to be a data scientist to use this tool! Here is how you can evaluate a credit profile in seconds:
 
 1. **Open the Web App:** Click on the [Live App link](#deployment) below.
-2. **Fill in the Applicant's Details:** Use the dropdown menus and sliders to input the financial and demographic details of the applicant (e.g., Age, Job type, Credit amount, Purpose of the loan, and their current account balances).
-3. **Run the Analysis:** Click the **"Predict Risk"** (or similar) button at the bottom of the form.
-4. **Read the Results:** The app will instantly tell you if the applicant is considered a **Good Risk** ✅ or a **Bad Risk** ❌. It will also provide a probability percentage so you can see *how confident* the AI is in its decision.
+2. **Enter Applicant Data (Left Sidebar):** Navigate to the **"Applicant Data"** menu on the left side of the screen. Use the intuitive sliders and dropdown menus to input the client's financial and demographic details (e.g., Age, Sex, Job, Credit Amount, Account balances).
+3. **View the Assessment (Main Panel):** As you input the data, the main dashboard will process the profile and instantly display the Risk Assessment verdict: either a **Good Risk ✅** or a **Bad Risk ❌**.
+4. **Check the Confidence Level:** Right below the verdict, you will see a progress bar indicating the exact **Confidence Level** (e.g., 87.00%), showing exactly how certain the AI model is about its decision.
 
 ---
 
