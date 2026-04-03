@@ -4,35 +4,31 @@
   <h1>💰 Credit Risk Predictor: End-to-End ML Pipeline</h1>
   <p><strong>Predictive Modeling & Real-Time Decision Interface</strong></p>
 
-<img src="image_23eee8.png" alt="Streamlit App Interface" width="800"/>
-
-<br />
-
 <p>
-  <a href="[https://credit-risk-model-brdvrp5bbgmdfjtxnyzgcs.streamlit.app/](https://credit-risk-model-brdvrp5bbgmdfjtxnyzgcs.streamlit.app/)" target="_blank">
-    <img src="[https://img.shields.io/badge/Streamlit-Live_App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white](https://img.shields.io/badge/Streamlit-Live_App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)" />
+  <a href="https://credit-risk-model-brdvrp5bbgmdfjtxnyzgcs.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Streamlit-Live_App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white" />
   </a>
 
-  <a href="[https://github.com/thayss-tech](https://github.com/thayss-tech)" target="_blank">
-    <img src="[https://img.shields.io/badge/Machine_Learning-Production_Ready-informational?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Machine_Learning-Production_Ready-informational?style=for-the-badge&logo=python&logoColor=white)" />
+  <a href="https://github.com/thayss-tech" target="_blank">
+    <img src="https://img.shields.io/badge/Machine_Learning-Production_Ready-informational?style=for-the-badge&logo=python&logoColor=white" />
   </a>
 </p>
 
 <p>
-  <a href="[https://pandas.pydata.org/](https://pandas.pydata.org/)" target="_blank">
-    <img src="[https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)" />
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   </a>
 
-  <a href="[https://scikit-learn.org/](https://scikit-learn.org/)" target="_blank">
-    <img src="[https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)" />
+  <a href="https://scikit-learn.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
   </a>
 
-  <a href="[https://xgboost.readthedocs.io/](https://xgboost.readthedocs.io/)" target="_blank">
-    <img src="[https://img.shields.io/badge/XGBoost-000000?style=flat-square&logo=xgboost&logoColor=white](https://img.shields.io/badge/XGBoost-000000?style=flat-square&logo=xgboost&logoColor=white)" />
+  <a href="https://xgboost.readthedocs.io/" target="_blank">
+    <img src="https://img.shields.io/badge/XGBoost-000000?style=flat-square&logo=xgboost&logoColor=white" />
   </a>
 
-  <a href="[https://streamlit.io/](https://streamlit.io/)" target="_blank">
-    <img src="[https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)" />
+  <a href="https://streamlit.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
   </a>
 </p>
 
