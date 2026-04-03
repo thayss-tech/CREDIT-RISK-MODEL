@@ -124,19 +124,21 @@ The system relies on serialized components to ensure consistency between the tra
 ```text
 CREDIT RISK MODEL FINAL/
  ┃
- ┣ 📄 analysis_model.ipynb         # Research, EDA & Training Pipeline
- ┣ 📄 app.py                       # Streamlit Web Application
- ┣ 📦 extra_trees_credit_model.pkl # Optimized Winning Model
+ ┣ 📄 analysis_model.ipynb         # Main notebook: EDA, data cleaning, model training and evaluation
+ ┣ 📄 app.py                       # Source code of the web interface built with Streamlit
+ ┣ 📦 extra_trees_credit_model.pkl # Best-performing model (Extra Trees) trained and serialized
  ┃
- ┣ 📄 Sex_encoder.pkl              # Persistent Categorical Encoders
- ┣ 📄 Housing_encoder.pkl
- ┣ 📄 Saving accounts_encoder.pkl
- ┣ 📄 Checking account_encoder.pkl
- ┣ 📄 Purpose_encoder.pkl
+ ┣ 📄 Checking_account_encoder.pkl # Exported dictionary to encode checking account status
+ ┣ 📄 Housing_encoder.pkl          # Exported dictionary to encode housing status
+ ┣ 📄 Saving_accounts_encoder.pkl  # Exported dictionary to encode savings account status
+ ┣ 📄 Sex_encoder.pkl              # Exported dictionary to encode the 'Sex' variable into numeric format
+ ┣ 📄 target_encoder.pkl           # Exported dictionary to encode the target variable (Risk)
  ┃
- ┣ 📊 german_credit_data.csv       # Source Dataset
- ┣ 📋 requirements.txt             # Server-side Dependencies
- ┗ 📄 README.md                    # Documentation
+ ┣ 📊 german_credit_data.csv       # Original (raw) dataset containing financial records
+ ┣ 📊 german_credit_data_clean.csv # Processed/cleaned dataset after Complete-Case Analysis
+ ┃
+ ┣ 📋 requirements.txt             # Python dependencies required for cloud deployment
+ ┗ 📄 README.md                    # Technical and business documentation of the project (this file)
 ```
 
 ---
