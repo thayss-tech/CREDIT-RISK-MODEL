@@ -75,7 +75,7 @@ graph TD
     C & D --> E[🌐 Streamlit Web App]
     E -- User Input --> F{🔮 Prediction Engine}
     F -- Result --> G[✅/❌ Risk Decision Output]
-````
+```
 
 #### Engineering Principles
 
@@ -83,9 +83,9 @@ graph TD
   * **🛡️ Robustness:** Strict handling of categorical variables through persistent LabelEncoders.
   * **📊 Transparency:** Probability-based outputs (`predict_proba`) instead of simple binary classification.
 
------
+---
 
-## \<a id="modeling-strategy"\>\</a\>🧪 Modeling Strategy
+## <a id="modeling-strategy"></a>🧪 Modeling Strategy
 
 The analysis followed a rigorous "Algorithm Tournament" to identify the most stable classifier:
 
@@ -98,9 +98,9 @@ The analysis followed a rigorous "Algorithm Tournament" to identify the most sta
       * **XGBoost:** 67.6% Accuracy - High performance via sequential error-correction.
 4.  **Hyperparameter Tuning:** Executed **GridSearchCV with 5-Fold Cross-Validation** to optimize depth, estimators, and split criteria.
 
------
+---
 
-## \<a id="technical-engine"\>\</a\>⚙️ Technical Engine: `Production Assets`
+## <a id="technical-engine"></a>⚙️ Technical Engine: `Production Assets`
 
 The system relies on serialized components to ensure consistency between the training environment and the live app:
 
@@ -111,9 +111,9 @@ The system relies on serialized components to ensure consistency between the tra
 | **Interface Layer** | 💻 | `app.py` | Streamlit logic and custom CSS UI. |
 | **Dependency Map** | 📋 | `requirements.txt` | Environment specification for cloud deployment. |
 
------
+---
 
-## \<a id="repository-map"\>\</a\>🗺️ Repository Map
+## <a id="repository-map"></a>🗺️ Repository Map
 
 ```text
 CREDIT RISK MODEL FINAL/
@@ -132,9 +132,9 @@ CREDIT RISK MODEL FINAL/
  ┗ 📄 README.md                # Documentation
 ```
 
------
+---
 
-## \<a id="deployment"\>\</a\>🚀 Deployment
+## <a id="deployment"></a>🚀 Deployment
 
 The predictive engine is deployed via **Streamlit Community Cloud**, utilizing:
 
@@ -146,19 +146,19 @@ The predictive engine is deployed via **Streamlit Community Cloud**, utilizing:
 | :--- | :--- |
 | **🌐 Live App** | [https://credit-risk-model-brdvrp5bbgmdfjtxnyzgcs.streamlit.app/](https://credit-risk-model-brdvrp5bbgmdfjtxnyzgcs.streamlit.app/) |
 
------
+---
 
-## \<a id="contact"\>\</a\>📩 Contact
+## <a id="contact"></a>📩 Contact
 
-\<div align="center"\>
+<div align="center">
 
 | Platform | Profile | Action |
 | :--- | :--- | :--- |
 | **LinkedIn** | Milton Mamani | [View Profile](https://www.linkedin.com/in/milton-mamani-1369a537b) |
 | **GitHub** | thayss-tech | [Explore Repos](https://github.com/thayss-tech) |
 
-\<br /\>
+<br />
 
 > *Engineered with precision as a structured technical gateway for risk-sensitive environments.*
 
-\</div\>
+</div>
