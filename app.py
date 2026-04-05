@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+import os
+from PIL import Image
 
 # Configuración de la página (debe ser lo primero)
 st.set_page_config(
@@ -76,6 +78,17 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
+# --- LOGO PERSONAL ---
+IMAGE_FILENAME = "logo c.png"
+
+if os.path.exists(IMAGE_FILENAME):
+    col1, col2, col3 = st.columns([1, 1.5, 1])
+    with col2:
+        image = Image.open(IMAGE_FILENAME)
+        st.image(image, use_container_width=True)
+else:
+    st.error(f"⚠️ No se encontró el archivo de imagen '{IMAGE_FILENAME}' en la carpeta actual.")
 
 # Título principal con emoji
 st.markdown('<p class="main-header">💰 Credit Risk Predictor</p>', unsafe_allow_html=True)
